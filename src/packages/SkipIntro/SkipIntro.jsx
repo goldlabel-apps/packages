@@ -59,8 +59,8 @@ export default function SkipIntro( props ) {
                             { title }
                         </Typography>
                         <Button
-                            variant={ `outlined` }
-                            color={ `primary` }
+                            variant={ `text` }
+                            color={ `secondary` }
                             onClick={ onClick }>
                             { btnTxt }
                         </Button>

@@ -13,7 +13,7 @@ ReactDOM.render(<React.StrictMode>
                       centerize: true,
                       width: 400,
                       height: 400,
-                      borderColor: `#eee`,
+                      borderColor: `#fff`,
                       onClick: (e) => {
                         e.preventDefault()
                         console.log (' CLICKED!! ')
