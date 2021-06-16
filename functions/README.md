@@ -1,6 +1,4 @@
-![Skip Intro](../../public/png/skip-intro.png) 
+# Functions
 
-# Packages
 
-- Skip Intro
 
