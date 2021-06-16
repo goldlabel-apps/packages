@@ -2,13 +2,9 @@ import React from 'react'
 import clsx from 'clsx'
 import {
     makeStyles,
-    createMuiTheme,
-    MuiThemeProvider,
-    CssBaseline,
     Typography,
     Button,
 } from '@material-ui/core/'
-import { theme } from './theme'
 
 const useStyles = makeStyles( theme => ({
     skipIntro:{
@@ -18,7 +14,7 @@ const useStyles = makeStyles( theme => ({
         fontWeight: 'lighter',
     },
     centerize: {
-      minHeight: '100vh',
+      minHeight: 'calc( 100vh - 50px )',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',
@@ -44,27 +40,22 @@ export default function SkipIntro( props ) {
         centerize,
     } = options
 
-
-    return <MuiThemeProvider theme={ createMuiTheme( theme ) }>
-                <CssBaseline />
-                { centerize ? null : null }
-                <div className={ clsx( centerize ? classes.centerize : null ) }>
-                    <div className={ clsx( classes.skipIntro) }
-                        style={{
-                            border: '1px solid ' + borderColor,
-                            height,
-                            width,
-                        }}>
-                        <Typography variant={ `h4` } className={ clsx( classes.htags) }>
-                            { title }
-                        </Typography>
-                        <Button
-                            variant={ `text` }
-                            color={ `secondary` }
-                            onClick={ onClick }>
-                            { btnTxt }
-                        </Button>
-                   </div>
+    return <div className={ clsx( centerize ? classes.centerize : null ) }>
+                <div className={ clsx( classes.skipIntro) }
+                    style={{
+                        border: '1px solid ' + borderColor,
+                        height,
+                        width,
+                    }}>
+                    <Typography variant={ `h4` } className={ clsx( classes.htags) }>
+                        { title }
+                    </Typography>
+                    <Button
+                        variant={ `text` }
+                        color={ `secondary` }
+                        onClick={ onClick }>
+                        { btnTxt }
+                    </Button>
                </div>
-           </MuiThemeProvider> 
+           </div>
 }
