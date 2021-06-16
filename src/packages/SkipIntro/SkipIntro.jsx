@@ -14,7 +14,7 @@ const useStyles = makeStyles( theme => ({
         fontWeight: 'lighter',
     },
     centerize: {
-      minHeight: 'calc( 100vh - 50px )',
+      minHeight: 'calc( 100vh - 75px )',
       display: 'flex',
       flexDirection: 'column',
       alignItems: 'center',

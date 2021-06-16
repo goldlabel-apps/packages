@@ -1,6 +1,10 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "@localify",
+  "name": "@localify",
+  "theme_color": "#ccd31f",
+  "background_color": "#ccd31f",
+  "start_url": ".",
+  "display": "standalone",
   "icons": [
     {
       "src": "favicon.ico",
@@ -15,11 +19,8 @@
     {
       "src": "logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
-  ],
-  "start_url": ".",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  ]
 }

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="512px" height="512px" viewBox="0 0 512 512" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Icon</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Icon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <path d="M365.8,109 L402.4,164.125 L347.5,164.125 L310.9,109 L274.3,109 L310.9,164.125 L256,164.125 L219.4,109 L182.8,109 L219.4,164.125 L164.5,164.125 L127.9,109 L109.6,109 C89.47,109 73.183,125.5375 73.183,145.75 L73,366.25 C73,386.4625 89.47,403 109.6,403 L402.4,403 C422.53,403 439,386.4625 439,366.25 L439,109 L365.8,109 Z M239.5,318.4375 L217,370 L194.5,318.4375 L145,295 L194.5,271.5625 L217,220 L239.5,271.5625 L289,295 L239.5,318.4375 Z M346.89,253.89 L329.5,292 L312.11,253.89 L274,236.5 L312.11,219.11 L329.5,181 L346.89,219.11 L385,236.5 L346.89,253.89 Z" id="skip-intro-logo" fill="#FFFFFF" fill-rule="nonzero"></path>
+    </g>
+</svg>

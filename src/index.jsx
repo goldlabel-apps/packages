@@ -1,4 +1,5 @@
 import pJSON from '../package.json'
+import * as serviceWorker from './serviceWorker'
 import React from 'react'
 import ReactDOM from 'react-dom'
 import {
@@ -34,3 +35,5 @@ ReactDOM.render(<React.StrictMode>
                       />
                     </MuiThemeProvider> 
                 </React.StrictMode>, document.getElementById('packages'))
+
+serviceWorker.register()
