@@ -1,11 +1,12 @@
 {
-  "version": "1.0.2",
+  "version": "1.0.3",
   "name": "skip-intro",
   "description": "Remember when?",
   "repository": "https://github.com/listingslab-software/skip-intro",
   "author": "listingslab <listingslab@gmail.com>",
   "license": "MIT",
   "dependencies": {
+    "@material-ui/core": "^4.11.4",
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
     "@testing-library/user-event": "^12.1.10",

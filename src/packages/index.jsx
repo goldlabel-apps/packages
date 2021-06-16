@@ -1,4 +1,4 @@
-import SkipIntro from './SkipIntro'
+import { SkipIntro } from './SkipIntro'
 
 export {
 	SkipIntro,
