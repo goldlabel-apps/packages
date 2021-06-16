@@ -1,5 +1,5 @@
 # Packages
 
-Reusable React
+Reusable React Packages designed to work anywhere
 
-> [Skip Intro](./public/md/001_start.png) 
+> [Start](./public/md/001_start.md) 
