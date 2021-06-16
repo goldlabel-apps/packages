@@ -2,3 +2,14 @@
 
 # Skip Intro
 
+`SkipIntro.jsx`
+
+```javascript
+
+<SkipIntro 
+	options={{
+		optionOne: 123,
+	}}
+/>
+
+```

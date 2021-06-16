@@ -1,8 +1,8 @@
 {
   "version": "1.0.2",
   "name": "skip-intro",
-  "description": "Everything you need to work with where",
-  "repository": "https://github.com/listingslab-software/localify",
+  "description": "Remember when?",
+  "repository": "https://github.com/listingslab-software/skip-intro",
   "author": "listingslab <listingslab@gmail.com>",
   "license": "MIT",
   "dependencies": {
